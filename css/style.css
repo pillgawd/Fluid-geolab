@@ -1,0 +1,29 @@
+.image {
+    float: right;
+}
+.text1 {
+    float: left;
+    width: 500px;
+}
+.clear {
+    clear: both;
+}
+.text2 {
+    display: inline-block;
+}
+.text2::before {
+    content: '';
+    display: block;
+    margin: 20px auto;
+    background-color: green;
+    width: 50px;
+    height: 3px;
+}
+.text2::after {
+    content: '';
+    background-color: blue;
+    width: 50px;
+    height: 3px;
+    margin: 20px auto;
+    display: block;
+}
