@@ -1,6 +1,3 @@
-.image {
-    float: right;
-}
 .text1 {
     float: left;
     width: 500px;
@@ -11,19 +8,24 @@
 .text2 {
     display: inline-block;
 }
-.text2::before {
-    content: '';
-    display: block;
-    margin: 20px auto;
-    background-color: green;
-    width: 50px;
-    height: 3px;
+.left-wraper {
+    float: left;
+    background-color: red;
+    width: 500px;
 }
-.text2::after {
-    content: '';
-    background-color: blue;
-    width: 50px;
-    height: 3px;
-    margin: 20px auto;
-    display: block;
+.right-wraper {
+    float: right;
+    background-color: yellow;
+    width: 500px;
+}
+.image2 {
+    width: 300px;
+    float: right;
+}
+.image1 {
+    width: 300px;
+    float: right;
+}
+.clear {
+    clear: both;
 }
