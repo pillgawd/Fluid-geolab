@@ -29,3 +29,8 @@
 .clear {
     clear: both;
 }
+/* .box::after {
+    content: '';
+    clear: both;
+    display: block;
+} */
