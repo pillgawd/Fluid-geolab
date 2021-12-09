@@ -1,36 +1,8 @@
-.text1 {
-    float: left;
-    width: 500px;
+html, body {
+    width: 100%;
+    height: 100%;
 }
-.clear {
-    clear: both;
+.main-wraper {
+    background-color: #042f5f;
+    border: 4px solid #070068;
 }
-.text2 {
-    display: inline-block;
-}
-.left-wraper {
-    float: left;
-    background-color: red;
-    width: 500px;
-}
-.right-wraper {
-    float: right;
-    background-color: yellow;
-    width: 500px;
-}
-.image2 {
-    width: 300px;
-    float: right;
-}
-.image1 {
-    width: 300px;
-    float: right;
-}
-.clear {
-    clear: both;
-}
-/* .box::after {
-    content: '';
-    clear: both;
-    display: block;
-} */
