@@ -35,8 +35,30 @@ body {
     text-align: center;
 }
 .white-box {
-    background-color: #ffff;
+    background-color: #fff;
     height: 100%;
     width: 20%;
     display: inline-block;
+    /* float: left; */
+}
+/* .white-box:first-child {
+    background-color: red;
+}
+.white-box:last-child {
+    background-color: pink;
+}
+.white-box:nth-child(2) {
+    background-color: yellow;
+}
+.white-box:nth-child(3) {
+    background-color: green;
+} */
+.white-box:nth-child(odd) {
+    background-color: yellow;
+}
+.white-box:nth-child(even) {
+    background-color: green;
+}
+.white-box:nth-child(1) h2 {
+    font-size: 38px;
 }
